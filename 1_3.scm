@@ -1,3 +1,5 @@
+;; 연습문제 1.3
+
 (define (square a) (* a a))
 
 (define (f a b c)
@@ -5,4 +7,4 @@
         ((and (< b a) (< b c)) (+ (square a) (square c)))
         ((and (< c a) (< c b)) (+ (square b) (square a)))))
 
-(f 1 2 3)
+(f 1 2 3) ;;result is 13
